@@ -12,4 +12,5 @@
       service:
         name: nginx
         state: started
-
+    - name: update python
+      dnf: name=python state=latest
